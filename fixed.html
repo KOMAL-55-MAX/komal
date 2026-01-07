@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Page - Debug Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>This Page Has Issues!</h1>
+        <!-- FIXED: Added closing </p> tag -->
+        <p class="subtitle">Can you find and fix all the problems?</p>
+    </header>
+    
+    <main>
+        <section>
+            <h2>Problematic Content</h2>
+            <!-- FIXED: Added closing </p> tag -->
+            <p>This paragraph doesn't close properly</p>
+            <p>Here's another paragraph</p>
+        </section>
+        
+        <section>
+            <h2>Broken List</h2>
+            <!-- FIXED: Added opening <ul> tag -->
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </section>
+        
+        <section class="image-section">
+            <h2>Image Issues</h2>
+            <!-- FIXED: Added alt attribute and fixed src -->
+            <img src="https://via.placeholder.com/600x300/4a90e2/ffffff?text=Fixed+Image" alt="Placeholder image" />
+            <!-- FIXED: Added closing </p> tag -->
+            <p class="image-caption">This caption doesn't close</p>
+        </section>
+        
+        <section class="button-section">
+            <h2>Button Problems</h2>
+            <p>These buttons have issues:</p>
+            <div class="button-container">
+                <!-- FIXED: Added closing quote for class attribute -->
+                <button class="btn btn-primary">Click Me</button>
+                <!-- FIXED: Corrected typo in class name (btn-secondry -> btn-secondary) -->
+                <button class="btn btn-secondary">Click Me Too</button>
+                <!-- FIXED: Added closing </button> tag -->
+                <button class="btn btn-success">And Me</button>
+            </div>
+        </section>
+        <!-- FIXED: Added closing </main> tag -->
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Web Development Practice. Learning and growing every day!</p>
+    </footer>
+</body>
+<!-- FIXED: Added closing </html> tag -->
+</html>
