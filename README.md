@@ -12,7 +12,8 @@ web-dev-day2/
 ├── fixed.html          # Fixed version of broken.html
 ├── styles.css          # CSS stylesheet with modern styling
 ├── fix-notes.md        # Documentation of bugs found and fixes applied
-└── README.md           # This file
+├── GIT_GUIDE.md        # Git workflow and GitHub setup guide
+└── PUSH_TO_GITHUB.md   # Quick reference for pushing to GitHub
 ```
 
 ## What I Learned Today
@@ -83,9 +84,10 @@ web-dev-day2/
 
 ## How to View
 
-1. Open `index.html` in a web browser to see the working page
-2. Open `broken.html` to see the intentionally broken version (compare with `fixed.html`)
-3. Review `fix-notes.md` for detailed debugging documentation
+1. Navigate to the `web-dev-day2/` folder
+2. Open `web-dev-day2/index.html` in a web browser to see the working page
+3. Open `web-dev-day2/broken.html` to see the intentionally broken version (compare with `web-dev-day2/fixed.html`)
+4. Review `web-dev-day2/fix-notes.md` for detailed debugging documentation
 
 ## Next Steps
 
