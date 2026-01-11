@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files (keep structure, ignore large files)
+*.log
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Database files (browser history contains sensitive data)
+*.db
+*.sqlite
+*.sqlite3
+*.sqbpro
